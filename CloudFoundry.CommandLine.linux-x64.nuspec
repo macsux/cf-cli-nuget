@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>CloudFoundry.CommandLine.linux-x64</id>
+    <version>1.0</version>
+    <authors>Andrew Stakhov</authors>
+    <owners>Andrew Stakhov</owners>
+    <projectUrl>https://github.com/cloudfoundry/cli</projectUrl>
+    <license type="expression">Apache-2.0</license>
+    <iconUrl>https://user-images.githubusercontent.com/18430599/36829291-2d261a2a-1ce4-11e8-99c2-14ee6a1c190b.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Official command line tool for Cloud Foundry</description>
+    <tags>cloud-foundry cli</tags>
+  </metadata>
+  <files>
+    <file src="linux-x64/cf" target="tools\cf" />
+  </files>
+</package>
